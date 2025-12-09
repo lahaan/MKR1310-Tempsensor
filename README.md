@@ -1,6 +1,8 @@
 # Arduino MKR WAN 1310 LoRaWAN Temperature Sensor
 
-A simple LoRaWAN temperature sensor using the Arduino MKR WAN 1310 and DS18B20 temperature sensor with downlink support for interval/sleep updates.
+A simple LoRaWAN temperature sensor using the Arduino MKR WAN 1310 and DS18B20 temperature sensor with downlink support for interval/sleep updates. It is worth mentioning that even with sleep, the MKR1310 manages to use approximately 7mA on average. For lower power solutions I suggest looking into STM32/nRF52 (or other equivalent) based boards. Here are some identical projects (for TTN, with DS18B20) that average 10-1000x lower power consumption whilst doing the same thing:
+- nRF52: https://github.com/lahaan/RAK-4600-Tempsensor
+- STM32: https://github.com/lahaan/loratempmodule
 
 ## Hardware
 
