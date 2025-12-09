@@ -6,7 +6,7 @@ A simple LoRaWAN temperature sensor using the Arduino MKR WAN 1310 and DS18B20 t
 
 - Arduino MKR WAN 1310
 - DS18B20 Temperature Sensor
-- 4.7kΩ pull-up resistor (for OneWire)
+- 4.7kΩ pull-up resistor
 
 ## Connections
 
@@ -32,7 +32,7 @@ Update the LoRaWAN credentials in the code:
 
 ```cpp
 const char *appEui = "0000000000000000";  // Your App EUI
-const char *appKey = "YOUR_APP_KEY_HERE"; // Your App Key (16 bytes)
+const char *appKey = "0000000000000000"; // Your App Key (16 bytes)
 ```
 
 Change the region if needed:
